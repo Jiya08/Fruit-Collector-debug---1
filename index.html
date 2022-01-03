@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+  <!--Link game.js and player.js-->
+
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+  apiKey: "AIzaSyCYwVV5hqWcuqXgpcntKR3l2ynQnZ7tjlw",
+  authDomain: "fruit-collecting-613ca.firebaseapp.com",
+  databaseURL: "https://fruit-collecting-613ca-default-rtdb.firebaseio.com",
+  projectId: "fruit-collecting-613ca",
+  storageBucket: "fruit-collecting-613ca.appspot.com",
+  messagingSenderId: "187111317806",
+  appId: "1:187111317806:web:d2b2826130f1dd754fdabf"
+};
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body>
+
+</html>
